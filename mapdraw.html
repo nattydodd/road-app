@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="mapdraw.js"></script>
+    <link rel="stylesheet" href="mapdraw.css">
+</head>
+<body>
+
+<h1>Traffic App</h1>
+
+<form id="form1" method="get">
+  <fieldset>
+      <input type="text" name="inputbox" id="code" placeholder="Enter Postal Code" />
+      <label for="code">Postal Code</label>
+    <button type="submit" form="form1" value="Submit">Submit</button>
+  </fieldset>
+</form>
+
+<div id="map"></div>
+
+</body>
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqsCaOw8_xtZ37g3_YWkIiwKlvMva7c7k"></script>
+
+</html>
